@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li
+        {
+            list-style-type: none;
+            float:right;
+            display: inline;
+            padding: 35px;
+            padding-top: 29px;
+            color: bisque;
+        }
+        #skills:hover
+        {
+            background-color: red;
+            border: 1px;
+            border-radius: 7%;
+        }
+        #about:hover
+        {
+            background-color: red;
+            border: 1px;
+            border-radius: 7%;
+        }
+        #home:hover
+        {
+            background-color: red;
+            border: 1px;
+            border-radius: 7%;
+        }
+        #port
+        {
+            float: left;
+            font-weight: bolder;
+            font-size:x-large;
+            color: antiquewhite;
+            padding-top: 20px;
+            padding-left: 0px;
+        }
+        #head
+        {
+            background-color: black;
+            height: 2cm;
+        }
+        #body
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #main
+        {
+            padding-top: 55px;
+            padding-left: 45px;
+        }
+        #p1
+        {
+            color: aliceblue;
+            font-size: xx-large;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #p2
+        {
+            color:yellow;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #p3
+        {
+            color: yellow;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #resume
+        {
+            text-decoration: none;
+            font-size: larger;
+            color:wheat;
+            margin-left: 20%;
+        }
+        #d1
+        {
+            padding-top: 2%;
+        }
+        #logo1
+        {
+            height: 1cm;
+            width: 1cm;
+            margin-left: 4%;
+            margin-top: 5%;
+        }
+        #logo2
+        {
+            height: 1cm;
+            width: 1cm;
+            margin-left: 4%;
+            margin-top: 5%;
+        }
+        #logo3
+        {
+            height: 1cm;
+            width: 1cm;
+            margin-left: 4%;
+            margin-top: 5%;
+        }
+        #logo4
+        {
+            height: 1cm;
+            width: 1cm;
+            margin-left: 4%;
+            margin-top: 5%;
+            margin-left: 4%;
+            margin-top: 5%;
+        }
+        #pp
+        {
+            margin-left: 4%;
+            margin-top: 5%;
+            color: white;
+            text-align: center;
+        }
+        #pp1
+        {
+            text-align: center;
+            margin-left: 4%;
+            color: white;
+        }
+        #footer
+        {
+            margin-top:4%;
+        }
+    </style>
+</head>
+<body id="body" style="background-image: url(https://cdn.wallpapersafari.com/71/5/ufsBTo.jpg);">
+    <div id="head">
+        <ul>
+            <li id="port">➣ HARIHARAN'S PORTFOLIO</li>
+            <a href="SKILLS.html"><li id="skills">SKILLS</li></a>
+            <a href="ABOUT.html"><li id="about">ABOUT</li></a>
+            <a href="PORTFOLIO.html"><li id="home">HOME</li></a>
+        </ul>
+    </div>
+    <div id="main">
+        <p id="p1">Hi,I am Hariharan.</p>
+        <p id="p2">Full Stack Web Develeoper!!</p>
+        <p id="p3">I am a creative web developer who satisfies the clients.</p>
+    </div>
+    <div id="d1">
+        <a href="E:\HARAN RESUME.pdf" id="resume">RESUME</a>
+    </div>
+    <h2 style="color: aliceblue;margin-left: 4%;">CONTACT:</h2>
+    <div id="logo">
+        <a href="https://www.linkedin.com/in/hariharan-thangavel-159608258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img id="logo1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEX///8AAADAwMDb29v09PQsLCx9fX2ysrLi4uLOzs55eXl1dXV2dnbR0dH6+vrx8fHIyMilpaWYmJhKSkrq6upvb2+5ubnX19cQEBBhYWE9PT2Hh4esrKyBgYEfHx+Ojo6hoaFRUVFEREQWFhZZWVkcHBxoaGgrKyvs8GXnAAADVUlEQVR4nO3c61LiMBiA4QZQKBZ6oCAKFXRxvf87XFjUSkmizHxJJPM+f62dvCI06YEkAQAAAAAAAAAAAAAAAAAA+EXyybraVGVRhx6II8V8qd49LKahRyNv8qy+euyFHpC0SnXdhR6SrPlZoFIvMf2n6gKVmsWTuNUGKnUbemBSRoZApWL5uHkwFj7G8X/aNwbG8iKuLIUPoQcn4tFSqAahRyegtgWqSejhCbi3Fq5DD09AYS2sQg9PQC/6wvhfQ9vhUKlh6OEJqP/YCvuhhydhZglcRjFtM60sDuJYBtsO+TEc8PcaY2Ac09IkGcT9OXNgOiSWoQcmp9QGNqGHJUmXGFVgkqRP3cAYZjMnBpvl174sxmsXdbl7/V+3nFWj0INxpe6nvaIf48sHAEAoeTrcbpqmWVVlL7opxGBS7bqr6XU8M4lpOn7VLsf+poFGlGd3Y62su8afVtk4u9OYL9q9lZaLWbswZw3M54S7F0inN6Ytxx9bbM+WYaeCnES/oND48rzf1DAx/gk+7QJckvx54cAYcCy0XU7+9Ob/E0eqMO9+fP6aRKHC2nq5/Cvvt3jIFOY/DtwfNq6y0HaB54znM7EShavxJYFK+Z3FSRQuTT8w8HtFRKLwYkX0hc/RFyqfs/AwhT7fiWEKlceZTaBCj6uMQIU30Rd6POqHKvQ3dRMunFXrxbBsvlnr7+2usvBpm39sPLr9bltviyjBwubkFMXom/WGt9NScoVndxRn1s0X3c1dESvU3Nygf97o3cpLXiJXuNHs23x2TnmcuAkVzrQ7t90o/+K+7Uio8F6/d8sn6luu/xVxMoXzi/fub/ItU2h4CW0Pjnk7XIgU6t+FBwtzoa8bdEUKzQ/X5OZCXydrRAotbynzzMbXIV/kbKJl/xvj/n3d/yhRaFsnDKMoHGv3fGR+7uiaCm2PfZv3H0uh+VlxCqVQ2KJQj0L3KGxRqEehexS2KNSj0D0KWxTqUegehS0K9Sh0j8IWhXoUukdhi0I9Ct2jsEWhHoXuUdiiUI9C9yhsUahHoXsUtuIr7N7hOjA+rmX7SmVzoa9v7Z9OUoOzR6/q/v1+46LonSiK1HbXfZ7dnvr8Eh/j3e8AAAAAAAAAAAAAAAAAAAAAAAD4kX9+gDozi9X19QAAAABJRU5ErkJggg=="></a>
+        <a href="https://github.com/Hariharan2520"><img id="logo2" src="https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg"></a>
+        <a href="https://www.instagram.com/_hariharan.?igsh=MTVpNDV5NzdnZDQ0dg=="><img id="logo3" src="https://static.vecteezy.com/system/resources/thumbnails/042/127/173/small_2x/instagram-black-and-white-logo-in-app-style-with-thick-white-border-and-shadow-free-png.png"></a>
+        <a href="https://leetcode.com/u/hariharan_ts/"><img id="logo4" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png"></a>
+    </div>
+    <div id="footer">
+        <p id="pp">Privacy Policy</p>
+        <p id="pp1">© Copyrights 2024.All Rights Reserved.</p>
+    </div>
+</body>
+</html>
